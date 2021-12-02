@@ -1,11 +1,12 @@
+//B20031608于泽阳
 char* StrCpy(char* src)
 {
 int len=sizeof(src);
-char* ss=(char*)malloc(len+1);
+char* sss=(char*)malloc(len+1);
 int n=0;
 while(src[n]!='\0')
-{ss[n]=src[n++];
+{sss[n]=src[n++];
 }
-ss[n]='\0';
-return ss;
+sss[n]='\0';
+return sss;
 }
